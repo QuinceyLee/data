@@ -1,0 +1,202 @@
+2021-10-18 19:23:28.412 [restartedMain] INFO  net.sppan.base.Application - Starting Application on DESKTOP-QVJ1A0E with PID 6780 (D:\software\graduate\SPPanAdmin\target\classes started by lee in D:\software\graduate\SPPanAdmin)
+2021-10-18 19:23:28.412 [restartedMain] DEBUG net.sppan.base.Application - Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-10-18 19:23:28.412 [restartedMain] INFO  net.sppan.base.Application - No active profile set, falling back to default profiles: default
+2021-10-18 19:23:30.083 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-10-18 19:23:32.193 [restartedMain] DEBUG org.hibernate.SQL - select resource0_.id as id1_0_, resource0_.create_time as create_t2_0_, resource0_.description as descript3_0_, resource0_.icon as icon4_0_, resource0_.is_hide as is_hide5_0_, resource0_.level as level6_0_, resource0_.name as name7_0_, resource0_.parent_id as parent_13_0_, resource0_.sort as sort8_0_, resource0_.source_key as source_k9_0_, resource0_.source_url as source_10_0_, resource0_.type as type11_0_, resource0_.update_time as update_12_0_ from tb_resource resource0_
+2021-10-18 19:23:32.568 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2021-10-18 19:23:32.583 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-10-18 19:23:32.583 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-10-18 19:23:32.755 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-10-18 19:23:32.974 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2021-10-18 19:23:32.989 [restartedMain] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2021-10-18 19:23:32.989 [restartedMain] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2021-10-18 19:23:32.989 [restartedMain] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: C:\Users\lee\AppData\Local\Temp\
+2021-10-18 19:23:32.989 [restartedMain] DEBUG net.sf.ehcache.CacheManager - Creating new CacheManager with Configuration Object
+2021-10-18 19:23:33.005 [restartedMain] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2021-10-18 19:23:33.177 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2021-10-18 19:23:33.208 [restartedMain] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2021-10-18 19:23:33.208 [restartedMain] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2021-10-18 19:23:33.208 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2021-10-18 19:23:33.224 [restartedMain] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2021-10-18 19:23:33.224 [restartedMain] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2021-10-18 19:23:33.224 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2021-10-18 19:23:33.224 [restartedMain] WARN  net.sf.ehcache.config.CacheConfiguration - Configuration problem for cache resourceCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+2021-10-18 19:23:33.224 [restartedMain] DEBUG net.sf.ehcache.DiskStorePathManager - Using diskstore path C:\Users\lee\AppData\Local\Temp
+2021-10-18 19:23:33.224 [restartedMain] DEBUG net.sf.ehcache.DiskStorePathManager - Holding exclusive lock on C:\Users\lee\AppData\Local\Temp\.ehcache-diskstore.lock
+2021-10-18 19:23:33.239 [restartedMain] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2021-10-18 19:23:33.239 [restartedMain] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file C:\Users\lee\AppData\Local\Temp\resource%0043ache.index
+2021-10-18 19:23:33.239 [restartedMain] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2021-10-18 19:23:33.271 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2021-10-18 19:23:33.271 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2021-10-18 19:23:33.271 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2021-10-18 19:23:33.271 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+2021-10-18 19:23:33.271 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2021-10-18 19:23:33.286 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+2021-10-18 19:23:33.286 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+2021-10-18 19:23:33.286 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+2021-10-18 19:23:33.286 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+2021-10-18 19:23:33.286 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+2021-10-18 19:23:33.286 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+2021-10-18 19:23:33.286 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+2021-10-18 19:23:33.286 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+2021-10-18 19:23:33.286 [restartedMain] DEBUG net.sf.ehcache.Cache - Initialised cache: resourceCache
+2021-10-18 19:23:33.286 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'resourceCache'.
+2021-10-18 19:23:33.286 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'resourceCache'.
+2021-10-18 19:23:33.646 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-18 19:23:33.989 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2021-10-18 19:23:34.005 [restartedMain] INFO  net.sppan.base.Application - Started Application in 6.0 seconds (JVM running for 7.137)
+2021-10-18 19:23:34.021 [restartedMain] DEBUG net.sppan.base.Application - 启动成功
+2021-10-18 19:23:57.165 [http-nio-80-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-18 19:37:32.302 [restartedMain] INFO  net.sppan.base.Application - Starting Application on DESKTOP-QVJ1A0E with PID 9744 (D:\software\graduate\SPPanAdmin\target\classes started by lee in D:\software\graduate\SPPanAdmin)
+2021-10-18 19:37:32.302 [restartedMain] DEBUG net.sppan.base.Application - Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-10-18 19:37:32.302 [restartedMain] INFO  net.sppan.base.Application - No active profile set, falling back to default profiles: default
+2021-10-18 19:37:33.682 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-10-18 19:37:35.423 [restartedMain] DEBUG org.hibernate.SQL - select resource0_.id as id1_0_, resource0_.create_time as create_t2_0_, resource0_.description as descript3_0_, resource0_.icon as icon4_0_, resource0_.is_hide as is_hide5_0_, resource0_.level as level6_0_, resource0_.name as name7_0_, resource0_.parent_id as parent_13_0_, resource0_.sort as sort8_0_, resource0_.source_key as source_k9_0_, resource0_.source_url as source_10_0_, resource0_.type as type11_0_, resource0_.update_time as update_12_0_ from tb_resource resource0_
+2021-10-18 19:37:35.752 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2021-10-18 19:37:35.752 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-10-18 19:37:35.752 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-10-18 19:37:35.893 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-10-18 19:37:36.082 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2021-10-18 19:37:36.097 [restartedMain] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2021-10-18 19:37:36.097 [restartedMain] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2021-10-18 19:37:36.097 [restartedMain] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: C:\Users\lee\AppData\Local\Temp\
+2021-10-18 19:37:36.097 [restartedMain] DEBUG net.sf.ehcache.CacheManager - Creating new CacheManager with Configuration Object
+2021-10-18 19:37:36.223 [restartedMain] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2021-10-18 19:37:36.223 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2021-10-18 19:37:36.254 [restartedMain] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2021-10-18 19:37:36.254 [restartedMain] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2021-10-18 19:37:36.254 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2021-10-18 19:37:36.254 [restartedMain] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2021-10-18 19:37:36.254 [restartedMain] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2021-10-18 19:37:36.254 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2021-10-18 19:37:36.254 [restartedMain] WARN  net.sf.ehcache.config.CacheConfiguration - Configuration problem for cache resourceCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+2021-10-18 19:37:36.270 [restartedMain] DEBUG net.sf.ehcache.DiskStorePathManager - Using diskstore path C:\Users\lee\AppData\Local\Temp
+2021-10-18 19:37:36.270 [restartedMain] DEBUG net.sf.ehcache.DiskStorePathManager - Holding exclusive lock on C:\Users\lee\AppData\Local\Temp\.ehcache-diskstore.lock
+2021-10-18 19:37:36.270 [restartedMain] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2021-10-18 19:37:36.270 [restartedMain] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file C:\Users\lee\AppData\Local\Temp\resource%0043ache.index
+2021-10-18 19:37:36.270 [restartedMain] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2021-10-18 19:37:36.301 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2021-10-18 19:37:36.301 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2021-10-18 19:37:36.301 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2021-10-18 19:37:36.301 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+2021-10-18 19:37:36.301 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2021-10-18 19:37:36.301 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+2021-10-18 19:37:36.301 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+2021-10-18 19:37:36.301 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+2021-10-18 19:37:36.301 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+2021-10-18 19:37:36.301 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+2021-10-18 19:37:36.301 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+2021-10-18 19:37:36.301 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+2021-10-18 19:37:36.317 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+2021-10-18 19:37:36.317 [restartedMain] DEBUG net.sf.ehcache.Cache - Initialised cache: resourceCache
+2021-10-18 19:37:36.317 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'resourceCache'.
+2021-10-18 19:37:36.317 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'resourceCache'.
+2021-10-18 19:37:36.646 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-18 19:37:36.976 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2021-10-18 19:37:36.992 [restartedMain] INFO  net.sppan.base.Application - Started Application in 5.051 seconds (JVM running for 5.976)
+2021-10-18 19:37:36.992 [restartedMain] DEBUG net.sppan.base.Application - 启动成功
+2021-10-18 19:37:43.382 [http-nio-80-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-18 19:53:15.694 [restartedMain] INFO  net.sppan.base.Application - Starting Application on DESKTOP-QVJ1A0E with PID 2144 (D:\software\graduate\SPPanAdmin\target\classes started by lee in D:\software\graduate\SPPanAdmin)
+2021-10-18 19:53:15.694 [restartedMain] DEBUG net.sppan.base.Application - Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-10-18 19:53:15.694 [restartedMain] INFO  net.sppan.base.Application - No active profile set, falling back to default profiles: default
+2021-10-18 19:53:17.105 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-10-18 19:53:18.878 [restartedMain] DEBUG org.hibernate.SQL - select resource0_.id as id1_0_, resource0_.create_time as create_t2_0_, resource0_.description as descript3_0_, resource0_.icon as icon4_0_, resource0_.is_hide as is_hide5_0_, resource0_.level as level6_0_, resource0_.name as name7_0_, resource0_.parent_id as parent_13_0_, resource0_.sort as sort8_0_, resource0_.source_key as source_k9_0_, resource0_.source_url as source_10_0_, resource0_.type as type11_0_, resource0_.update_time as update_12_0_ from tb_resource resource0_
+2021-10-18 19:53:19.208 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2021-10-18 19:53:19.208 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-10-18 19:53:19.208 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-10-18 19:53:19.349 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-10-18 19:53:19.537 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2021-10-18 19:53:19.537 [restartedMain] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2021-10-18 19:53:19.537 [restartedMain] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2021-10-18 19:53:19.537 [restartedMain] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: C:\Users\lee\AppData\Local\Temp\
+2021-10-18 19:53:19.678 [restartedMain] DEBUG net.sf.ehcache.CacheManager - Creating new CacheManager with Configuration Object
+2021-10-18 19:53:19.678 [restartedMain] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2021-10-18 19:53:19.678 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2021-10-18 19:53:19.710 [restartedMain] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2021-10-18 19:53:19.710 [restartedMain] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2021-10-18 19:53:19.710 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2021-10-18 19:53:19.710 [restartedMain] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2021-10-18 19:53:19.710 [restartedMain] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2021-10-18 19:53:19.710 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2021-10-18 19:53:19.710 [restartedMain] WARN  net.sf.ehcache.config.CacheConfiguration - Configuration problem for cache resourceCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+2021-10-18 19:53:19.710 [restartedMain] DEBUG net.sf.ehcache.DiskStorePathManager - Using diskstore path C:\Users\lee\AppData\Local\Temp
+2021-10-18 19:53:19.710 [restartedMain] DEBUG net.sf.ehcache.DiskStorePathManager - Holding exclusive lock on C:\Users\lee\AppData\Local\Temp\.ehcache-diskstore.lock
+2021-10-18 19:53:19.725 [restartedMain] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2021-10-18 19:53:19.729 [restartedMain] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file C:\Users\lee\AppData\Local\Temp\resource%0043ache.index
+2021-10-18 19:53:19.729 [restartedMain] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2021-10-18 19:53:19.757 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2021-10-18 19:53:19.757 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2021-10-18 19:53:19.757 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2021-10-18 19:53:19.757 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+2021-10-18 19:53:19.757 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2021-10-18 19:53:19.757 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+2021-10-18 19:53:19.757 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+2021-10-18 19:53:19.757 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+2021-10-18 19:53:19.757 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+2021-10-18 19:53:19.757 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+2021-10-18 19:53:19.757 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+2021-10-18 19:53:19.757 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+2021-10-18 19:53:19.757 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+2021-10-18 19:53:19.773 [restartedMain] DEBUG net.sf.ehcache.Cache - Initialised cache: resourceCache
+2021-10-18 19:53:19.773 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'resourceCache'.
+2021-10-18 19:53:19.773 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'resourceCache'.
+2021-10-18 19:53:20.117 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-18 19:53:20.431 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2021-10-18 19:53:20.463 [restartedMain] INFO  net.sppan.base.Application - Started Application in 5.098 seconds (JVM running for 6.025)
+2021-10-18 19:53:20.463 [restartedMain] DEBUG net.sppan.base.Application - 启动成功
+2021-10-18 19:53:35.746 [http-nio-80-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-18 20:00:48.440 [restartedMain] INFO  net.sppan.base.Application - Starting Application on DESKTOP-QVJ1A0E with PID 9532 (D:\software\graduate\SPPanAdmin\target\classes started by lee in D:\software\graduate\SPPanAdmin)
+2021-10-18 20:00:48.440 [restartedMain] DEBUG net.sppan.base.Application - Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-10-18 20:00:48.440 [restartedMain] INFO  net.sppan.base.Application - No active profile set, falling back to default profiles: default
+2021-10-18 20:00:50.536 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-10-18 20:00:52.920 [restartedMain] DEBUG org.hibernate.SQL - select resource0_.id as id1_0_, resource0_.create_time as create_t2_0_, resource0_.description as descript3_0_, resource0_.icon as icon4_0_, resource0_.is_hide as is_hide5_0_, resource0_.level as level6_0_, resource0_.name as name7_0_, resource0_.parent_id as parent_13_0_, resource0_.sort as sort8_0_, resource0_.source_key as source_k9_0_, resource0_.source_url as source_10_0_, resource0_.type as type11_0_, resource0_.update_time as update_12_0_ from tb_resource resource0_
+2021-10-18 20:00:53.359 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2021-10-18 20:00:53.359 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-10-18 20:00:53.359 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-10-18 20:00:53.516 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-10-18 20:00:53.861 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2021-10-18 20:00:53.874 [restartedMain] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2021-10-18 20:00:53.874 [restartedMain] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2021-10-18 20:00:53.875 [restartedMain] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: C:\Users\lee\AppData\Local\Temp\
+2021-10-18 20:00:53.889 [restartedMain] DEBUG net.sf.ehcache.CacheManager - Creating new CacheManager with Configuration Object
+2021-10-18 20:00:53.890 [restartedMain] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2021-10-18 20:00:54.039 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2021-10-18 20:00:54.068 [restartedMain] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2021-10-18 20:00:54.068 [restartedMain] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2021-10-18 20:00:54.068 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2021-10-18 20:00:54.073 [restartedMain] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2021-10-18 20:00:54.074 [restartedMain] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2021-10-18 20:00:54.074 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2021-10-18 20:00:54.075 [restartedMain] WARN  net.sf.ehcache.config.CacheConfiguration - Configuration problem for cache resourceCache: MaxEntriesLocalHeap equal or greater than MaxEntriesLocalDisk. This will result in useless disk storage.
+2021-10-18 20:00:54.082 [restartedMain] DEBUG net.sf.ehcache.DiskStorePathManager - Using diskstore path C:\Users\lee\AppData\Local\Temp
+2021-10-18 20:00:54.082 [restartedMain] DEBUG net.sf.ehcache.DiskStorePathManager - Holding exclusive lock on C:\Users\lee\AppData\Local\Temp\.ehcache-diskstore.lock
+2021-10-18 20:00:54.083 [restartedMain] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2021-10-18 20:00:54.088 [restartedMain] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file C:\Users\lee\AppData\Local\Temp\resource%0043ache.index
+2021-10-18 20:00:54.088 [restartedMain] DEBUG net.sf.ehcache.store.disk.DiskStorageFactory - Failed to delete file resource%0043ache.index
+2021-10-18 20:00:54.128 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2021-10-18 20:00:54.129 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2021-10-18 20:00:54.129 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2021-10-18 20:00:54.129 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+2021-10-18 20:00:54.130 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2021-10-18 20:00:54.139 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+2021-10-18 20:00:54.139 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+2021-10-18 20:00:54.140 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+2021-10-18 20:00:54.140 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+2021-10-18 20:00:54.140 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+2021-10-18 20:00:54.141 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+2021-10-18 20:00:54.141 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+2021-10-18 20:00:54.141 [restartedMain] DEBUG net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+2021-10-18 20:00:54.146 [restartedMain] DEBUG net.sf.ehcache.Cache - Initialised cache: resourceCache
+2021-10-18 20:00:54.147 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'resourceCache'.
+2021-10-18 20:00:54.147 [restartedMain] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'resourceCache'.
+2021-10-18 20:00:54.546 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-18 20:00:54.930 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2021-10-18 20:00:54.954 [restartedMain] INFO  net.sppan.base.Application - Started Application in 6.843 seconds (JVM running for 7.741)
+2021-10-18 20:00:54.957 [restartedMain] DEBUG net.sppan.base.Application - 启动成功
+2021-10-18 20:00:55.888 [http-nio-80-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-18 20:01:10.824 [http-nio-80-exec-2] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2021-10-18 20:01:10.918 [http-nio-80-exec-4] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2021-10-18 20:01:10.918 [http-nio-80-exec-4] DEBUG org.hibernate.SQL - select roles0_.user_id as user_id1_4_0_, roles0_.role_id as role_id2_4_0_, role1_.id as id1_1_1_, role1_.create_time as create_t2_1_1_, role1_.description as descript3_1_1_, role1_.name as name4_1_1_, role1_.role_key as role_key5_1_1_, role1_.status as status6_1_1_, role1_.update_time as update_t7_1_1_ from tb_user_role roles0_ inner join tb_role role1_ on roles0_.role_id=role1_.id where roles0_.user_id=?
+2021-10-18 20:01:10.950 [http-nio-80-exec-4] DEBUG org.hibernate.SQL - select resources0_.role_id as role_id1_2_0_, resources0_.resource_id as resource2_2_0_, resource1_.id as id1_0_1_, resource1_.create_time as create_t2_0_1_, resource1_.description as descript3_0_1_, resource1_.icon as icon4_0_1_, resource1_.is_hide as is_hide5_0_1_, resource1_.level as level6_0_1_, resource1_.name as name7_0_1_, resource1_.parent_id as parent_13_0_1_, resource1_.sort as sort8_0_1_, resource1_.source_key as source_k9_0_1_, resource1_.source_url as source_10_0_1_, resource1_.type as type11_0_1_, resource1_.update_time as update_12_0_1_ from tb_role_resource resources0_ inner join tb_resource resource1_ on resources0_.resource_id=resource1_.id where resources0_.role_id=?
+2021-10-18 20:01:10.965 [http-nio-80-exec-4] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?
+2021-10-18 20:01:10.965 [http-nio-80-exec-4] DEBUG org.hibernate.SQL - select user0_.id as id1_3_, user0_.address as address2_3_, user0_.birthday as birthday3_3_, user0_.create_time as create_t4_3_, user0_.delete_status as delete_s5_3_, user0_.description as descript6_3_, user0_.email as email7_3_, user0_.locked as locked8_3_, user0_.nick_name as nick_nam9_3_, user0_.password as passwor10_3_, user0_.sex as sex11_3_, user0_.telephone as telepho12_3_, user0_.update_time as update_13_3_, user0_.user_name as user_na14_3_ from tb_user user0_ where user0_.user_name=?

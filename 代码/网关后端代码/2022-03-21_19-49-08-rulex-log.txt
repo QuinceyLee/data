@@ -1,0 +1,8 @@
+2022/03/21 19:49:08 cfg.go:72: [info] Go max process is: 2 
+2022/03/21 19:49:08 http_api_server.go:181: [info] Http server started on http://0.0.0.0:2580
+2022/03/21 19:49:08 engine.go:641: [info] Plugin start successfully:[Http Api Server]
+2022/03/21 19:49:08 engine.go:624: [info] Plugin is not enable:Light Weight MqttServer
+2022/03/21 19:53:34 runner.go:97: [warning] Received stop signal: interrupt 
+2022/03/21 19:53:34 engine.go:539: [info] Ready to stop rulex 
+2022/03/21 19:53:34 engine.go:564: [info] Stop plugin: Http Api Server 
+2022/03/21 19:53:34 engine.go:571: [info] Stop Rulex successfully 

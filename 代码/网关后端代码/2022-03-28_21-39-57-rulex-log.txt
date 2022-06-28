@@ -1,0 +1,97 @@
+2022/03/28 21:39:57 cfg.go:72: [info] Go max process is: 2 
+2022/03/28 21:39:57 http_api_server.go:181: [info] Http server started on http://0.0.0.0:2580
+2022/03/28 21:39:57 engine.go:641: [info] Plugin start successfully:[Http Api Server]
+2022/03/28 21:39:57 engine.go:624: [info] Plugin is not enable:Light Weight MqttServer
+2022/03/28 21:41:45 engine.go:299: [error] Source start error: dial tcp 127.0.0.1:1254: connect: connection refused 
+2022/03/28 21:41:45 engine.go:204: [error] dial tcp 127.0.0.1:1254: connect: connection refused 
+2022/03/28 21:41:45 engine.go:700: [info] InEnd [IN:c64c513200794cafb276afe66bcede51] has been deleted
+2022/03/28 21:41:45 common.go:123: [error] dial tcp 127.0.0.1:1254: connect: connection refused 
+2022/03/28 21:41:47 engine.go:299: [error] Source start error: dial tcp 127.0.0.1:1254: connect: connection refused 
+2022/03/28 21:41:47 engine.go:204: [error] dial tcp 127.0.0.1:1254: connect: connection refused 
+2022/03/28 21:41:47 engine.go:700: [info] InEnd [IN:b8a7a8100ff74903ab48b65cc12c009c] has been deleted
+2022/03/28 21:41:47 common.go:123: [error] dial tcp 127.0.0.1:1254: connect: connection refused 
+2022/03/28 21:46:18 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:1254: i/o timeout 
+2022/03/28 21:46:18 engine.go:204: [error] dial tcp 169.254.73.94:1254: i/o timeout 
+2022/03/28 21:46:18 engine.go:700: [info] InEnd [IN:bfabe173a5e644aab4f8e4dcad20df30] has been deleted
+2022/03/28 21:46:18 common.go:123: [error] dial tcp 169.254.73.94:1254: i/o timeout 
+2022/03/28 21:46:29 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: i/o timeout 
+2022/03/28 21:46:29 engine.go:204: [error] dial tcp 169.254.73.94:502: i/o timeout 
+2022/03/28 21:46:29 engine.go:700: [info] InEnd [IN:c9c7b3a89e85433ba8882195c0a76b8d] has been deleted
+2022/03/28 21:46:29 common.go:123: [error] dial tcp 169.254.73.94:502: i/o timeout 
+2022/03/28 21:46:36 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: i/o timeout 
+2022/03/28 21:46:36 engine.go:204: [error] dial tcp 169.254.73.94:502: i/o timeout 
+2022/03/28 21:46:36 engine.go:700: [info] InEnd [IN:506fa0f4fc40445692c05fbfd39f0469] has been deleted
+2022/03/28 21:46:36 common.go:123: [error] dial tcp 169.254.73.94:502: i/o timeout 
+2022/03/28 21:47:16 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: i/o timeout 
+2022/03/28 21:47:16 engine.go:204: [error] dial tcp 169.254.73.94:502: i/o timeout 
+2022/03/28 21:47:16 engine.go:700: [info] InEnd [IN:a1a27251bff94057bedbcda26649c9a8] has been deleted
+2022/03/28 21:47:16 common.go:123: [error] dial tcp 169.254.73.94:502: i/o timeout 
+2022/03/28 21:47:26 modbus_master.go:239: [info] Start read register: 0 
+2022/03/28 21:47:26 engine.go:241: [info] InEnd [ModbusTest, IN:0ce47e36a8ee4671956241843e1370c5] load successfully
+2022/03/28 21:54:07 engine.go:299: [error] Source start error: network Error : dial tcp 127.0.0.1:1883: connect: connection refused 
+2022/03/28 21:54:07 engine.go:204: [error] network Error : dial tcp 127.0.0.1:1883: connect: connection refused 
+2022/03/28 21:54:07 engine.go:700: [info] InEnd [IN:e68ef83338104ecca9545dcafee64f6b] has been deleted
+2022/03/28 21:54:07 common.go:123: [error] network Error : dial tcp 127.0.0.1:1883: connect: connection refused 
+2022/03/28 21:54:21 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  read tcp 169.254.109.152:55920->169.254.73.94:502: i/o timeout 
+2022/03/28 21:54:26 engine.go:276: [warning] Source IN:0ce47e36a8ee4671956241843e1370c5 ModbusTest down. try to restart it
+2022/03/28 21:54:26 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  read tcp 169.254.109.152:55920->169.254.73.94:502: i/o timeout 
+2022/03/28 21:54:31 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: i/o timeout 
+2022/03/28 21:54:31 engine.go:276: [warning] Source IN:0ce47e36a8ee4671956241843e1370c5 ModbusTest down. try to restart it
+2022/03/28 21:54:31 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: connect: no route to host 
+2022/03/28 21:54:36 engine.go:276: [warning] Source IN:0ce47e36a8ee4671956241843e1370c5 ModbusTest down. try to restart it
+2022/03/28 21:54:36 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: connect: host is down 
+2022/03/28 21:54:41 engine.go:276: [warning] Source IN:0ce47e36a8ee4671956241843e1370c5 ModbusTest down. try to restart it
+2022/03/28 21:54:41 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: connect: host is down 
+2022/03/28 21:54:46 engine.go:276: [warning] Source IN:0ce47e36a8ee4671956241843e1370c5 ModbusTest down. try to restart it
+2022/03/28 21:54:46 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: connect: host is down 
+2022/03/28 21:54:51 engine.go:276: [warning] Source IN:0ce47e36a8ee4671956241843e1370c5 ModbusTest down. try to restart it
+2022/03/28 21:54:56 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: i/o timeout 
+2022/03/28 21:54:56 engine.go:276: [warning] Source IN:0ce47e36a8ee4671956241843e1370c5 ModbusTest down. try to restart it
+2022/03/28 21:54:56 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: connect: no route to host 
+2022/03/28 21:55:01 engine.go:276: [warning] Source IN:0ce47e36a8ee4671956241843e1370c5 ModbusTest down. try to restart it
+2022/03/28 21:55:01 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: connect: host is down 
+2022/03/28 21:55:06 engine.go:276: [warning] Source IN:0ce47e36a8ee4671956241843e1370c5 ModbusTest down. try to restart it
+2022/03/28 21:55:06 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: connect: host is down 
+2022/03/28 21:55:11 engine.go:276: [warning] Source IN:0ce47e36a8ee4671956241843e1370c5 ModbusTest down. try to restart it
+2022/03/28 21:55:11 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: connect: host is down 
+2022/03/28 21:55:16 engine.go:276: [warning] Source IN:0ce47e36a8ee4671956241843e1370c5 ModbusTest down. try to restart it
+2022/03/28 21:55:21 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: i/o timeout 
+2022/03/28 21:55:21 engine.go:276: [warning] Source IN:0ce47e36a8ee4671956241843e1370c5 ModbusTest down. try to restart it
+2022/03/28 21:55:21 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: connect: no route to host 
+2022/03/28 21:55:26 engine.go:276: [warning] Source IN:0ce47e36a8ee4671956241843e1370c5 ModbusTest down. try to restart it
+2022/03/28 21:55:26 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: connect: host is down 
+2022/03/28 21:55:31 engine.go:276: [warning] Source IN:0ce47e36a8ee4671956241843e1370c5 ModbusTest down. try to restart it
+2022/03/28 21:55:31 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: connect: host is down 
+2022/03/28 21:55:36 engine.go:276: [warning] Source IN:0ce47e36a8ee4671956241843e1370c5 ModbusTest down. try to restart it
+2022/03/28 21:55:36 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: connect: host is down 
+2022/03/28 21:55:41 engine.go:276: [warning] Source IN:0ce47e36a8ee4671956241843e1370c5 ModbusTest down. try to restart it
+2022/03/28 21:55:46 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: i/o timeout 
+2022/03/28 21:55:46 engine.go:276: [warning] Source IN:0ce47e36a8ee4671956241843e1370c5 ModbusTest down. try to restart it
+2022/03/28 21:55:46 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: connect: no route to host 
+2022/03/28 21:55:51 engine.go:276: [warning] Source IN:0ce47e36a8ee4671956241843e1370c5 ModbusTest down. try to restart it
+2022/03/28 21:55:51 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: connect: host is down 
+2022/03/28 21:55:56 engine.go:276: [warning] Source IN:0ce47e36a8ee4671956241843e1370c5 ModbusTest down. try to restart it
+2022/03/28 21:55:56 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: connect: host is down 
+2022/03/28 21:56:01 engine.go:276: [warning] Source IN:0ce47e36a8ee4671956241843e1370c5 ModbusTest down. try to restart it
+2022/03/28 21:56:01 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: connect: host is down 
+2022/03/28 21:56:06 engine.go:276: [warning] Source IN:0ce47e36a8ee4671956241843e1370c5 ModbusTest down. try to restart it
+2022/03/28 21:56:11 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: i/o timeout 
+2022/03/28 21:56:11 engine.go:276: [warning] Source IN:0ce47e36a8ee4671956241843e1370c5 ModbusTest down. try to restart it
+2022/03/28 21:56:11 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: connect: no route to host 
+2022/03/28 21:56:16 engine.go:276: [warning] Source IN:0ce47e36a8ee4671956241843e1370c5 ModbusTest down. try to restart it
+2022/03/28 21:56:16 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: connect: host is down 
+2022/03/28 21:56:21 engine.go:276: [warning] Source IN:0ce47e36a8ee4671956241843e1370c5 ModbusTest down. try to restart it
+2022/03/28 21:56:21 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: connect: host is down 
+2022/03/28 21:56:26 engine.go:276: [warning] Source IN:0ce47e36a8ee4671956241843e1370c5 ModbusTest down. try to restart it
+2022/03/28 21:56:26 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: connect: host is down 
+2022/03/28 21:56:31 engine.go:276: [warning] Source IN:0ce47e36a8ee4671956241843e1370c5 ModbusTest down. try to restart it
+2022/03/28 21:56:36 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: i/o timeout 
+2022/03/28 21:56:36 engine.go:276: [warning] Source IN:0ce47e36a8ee4671956241843e1370c5 ModbusTest down. try to restart it
+2022/03/28 21:56:36 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: connect: no route to host 
+2022/03/28 21:56:41 engine.go:276: [warning] Source IN:0ce47e36a8ee4671956241843e1370c5 ModbusTest down. try to restart it
+2022/03/28 21:56:41 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: connect: host is down 
+2022/03/28 21:56:45 engine.go:700: [info] InEnd [IN:0ce47e36a8ee4671956241843e1370c5] has been deleted
+2022/03/28 22:36:12 runner.go:97: [warning] Received stop signal: interrupt 
+2022/03/28 22:36:12 engine.go:539: [info] Ready to stop rulex 
+2022/03/28 22:36:12 engine.go:564: [info] Stop plugin: Http Api Server 
+2022/03/28 22:36:12 engine.go:571: [info] Stop Rulex successfully 

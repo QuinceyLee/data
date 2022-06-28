@@ -1,0 +1,18 @@
+@startuml
+'https://plantuml.com/activity-diagram-beta
+skinparam dpi 300
+start
+repeat
+:创建数据处理对象;
+repeat while (Lua语法正确?) is (不是) not (是)
+:绑定所处理的输入端数据;
+:流程对象和数据绑定放入队列;
+:创建Lua虚拟机;
+:队列执行脚本中的处理逻辑;
+if(运行成功) then (是)
+    else (不是)
+    :错误处理函数;
+endif
+stop
+
+@enduml

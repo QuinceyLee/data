@@ -1,0 +1,159 @@
+2022/04/01 18:51:05 cfg.go:72: [info] Go max process is: 2 
+2022/04/01 18:51:05 http_api_server.go:181: [info] Http server started on http://0.0.0.0:2580
+2022/04/01 18:51:05 engine.go:641: [info] Plugin start successfully:[Http Api Server]
+2022/04/01 18:51:05 engine.go:624: [info] Plugin is not enable:Light Weight MqttServer
+2022/04/01 18:51:05 engine.go:299: [error] Source start error: dial tcp 127.0.0.1:1254: connect: connection refused 
+2022/04/01 18:51:05 engine.go:204: [error] dial tcp 127.0.0.1:1254: connect: connection refused 
+2022/04/01 18:51:05 engine.go:700: [info] InEnd [IN:c64c513200794cafb276afe66bcede51] has been deleted
+2022/04/01 18:51:05 runner.go:61: [error] InEnd load failed: dial tcp 127.0.0.1:1254: connect: connection refused 
+2022/04/01 18:51:05 engine.go:299: [error] Source start error: dial tcp 127.0.0.1:1254: connect: connection refused 
+2022/04/01 18:51:05 engine.go:204: [error] dial tcp 127.0.0.1:1254: connect: connection refused 
+2022/04/01 18:51:05 engine.go:700: [info] InEnd [IN:b8a7a8100ff74903ab48b65cc12c009c] has been deleted
+2022/04/01 18:51:05 runner.go:61: [error] InEnd load failed: dial tcp 127.0.0.1:1254: connect: connection refused 
+2022/04/01 18:51:10 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:1254: i/o timeout 
+2022/04/01 18:51:10 engine.go:204: [error] dial tcp 169.254.73.94:1254: i/o timeout 
+2022/04/01 18:51:10 engine.go:700: [info] InEnd [IN:bfabe173a5e644aab4f8e4dcad20df30] has been deleted
+2022/04/01 18:51:10 runner.go:61: [error] InEnd load failed: dial tcp 169.254.73.94:1254: i/o timeout 
+2022/04/01 18:51:10 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: connect: no route to host 
+2022/04/01 18:51:10 engine.go:204: [error] dial tcp 169.254.73.94:502: connect: no route to host 
+2022/04/01 18:51:10 engine.go:700: [info] InEnd [IN:c9c7b3a89e85433ba8882195c0a76b8d] has been deleted
+2022/04/01 18:51:10 runner.go:61: [error] InEnd load failed: dial tcp 169.254.73.94:502: connect: no route to host 
+2022/04/01 18:51:10 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: connect: host is down 
+2022/04/01 18:51:10 engine.go:204: [error] dial tcp 169.254.73.94:502: connect: host is down 
+2022/04/01 18:51:10 engine.go:700: [info] InEnd [IN:506fa0f4fc40445692c05fbfd39f0469] has been deleted
+2022/04/01 18:51:10 runner.go:61: [error] InEnd load failed: dial tcp 169.254.73.94:502: connect: host is down 
+2022/04/01 18:51:10 engine.go:299: [error] Source start error: dial tcp 169.254.73.94:502: connect: host is down 
+2022/04/01 18:51:10 engine.go:204: [error] dial tcp 169.254.73.94:502: connect: host is down 
+2022/04/01 18:51:10 engine.go:700: [info] InEnd [IN:a1a27251bff94057bedbcda26649c9a8] has been deleted
+2022/04/01 18:51:10 runner.go:61: [error] InEnd load failed: dial tcp 169.254.73.94:502: connect: host is down 
+2022/04/01 18:51:10 engine.go:299: [error] Source start error: network Error : dial tcp 127.0.0.1:1883: connect: connection refused 
+2022/04/01 18:51:10 engine.go:204: [error] network Error : dial tcp 127.0.0.1:1883: connect: connection refused 
+2022/04/01 18:51:10 engine.go:700: [info] InEnd [IN:e68ef83338104ecca9545dcafee64f6b] has been deleted
+2022/04/01 18:51:10 runner.go:61: [error] InEnd load failed: network Error : dial tcp 127.0.0.1:1883: connect: connection refused 
+2022/04/01 18:52:52 engine.go:299: [error] Source start error: dial tcp 169.254.2.247:502: i/o timeout 
+2022/04/01 18:52:52 engine.go:204: [error] dial tcp 169.254.2.247:502: i/o timeout 
+2022/04/01 18:52:52 engine.go:700: [info] InEnd [IN:9c3f18dedbec4f49b2a622f1754d3b15] has been deleted
+2022/04/01 18:52:52 common.go:123: [error] dial tcp 169.254.2.247:502: i/o timeout 
+2022/04/01 18:54:01 engine.go:299: [error] Source start error: dial tcp 169.254.2.247:502: i/o timeout 
+2022/04/01 18:54:01 engine.go:204: [error] dial tcp 169.254.2.247:502: i/o timeout 
+2022/04/01 18:54:01 engine.go:700: [info] InEnd [IN:4a44dfe528484e3cb85bb540413710fc] has been deleted
+2022/04/01 18:54:01 common.go:123: [error] dial tcp 169.254.2.247:502: i/o timeout 
+2022/04/01 18:54:22 engine.go:299: [error] Source start error: dial tcp 169.254.2.247:502: i/o timeout 
+2022/04/01 18:54:22 engine.go:204: [error] dial tcp 169.254.2.247:502: i/o timeout 
+2022/04/01 18:54:22 engine.go:700: [info] InEnd [IN:1ef1820f80324d39aec837628a366a8b] has been deleted
+2022/04/01 18:54:22 common.go:123: [error] dial tcp 169.254.2.247:502: i/o timeout 
+2022/04/01 18:54:56 engine.go:299: [error] Source start error: dial tcp 169.254.2.247:502: i/o timeout 
+2022/04/01 18:54:56 engine.go:204: [error] dial tcp 169.254.2.247:502: i/o timeout 
+2022/04/01 18:54:56 engine.go:700: [info] InEnd [IN:83e4b2cdfc5e400db5a718e86a838b00] has been deleted
+2022/04/01 18:54:56 common.go:123: [error] dial tcp 169.254.2.247:502: i/o timeout 
+2022/04/01 18:55:40 modbus_master.go:239: [info] Start read register: 0 
+2022/04/01 18:55:40 engine.go:241: [info] InEnd [Test, IN:246f331b926a49d095b468a7d7b94a25] load successfully
+2022/04/01 18:56:18 engine.go:700: [info] InEnd [IN:246f331b926a49d095b468a7d7b94a25] has been deleted
+2022/04/01 18:56:55 modbus_master.go:239: [info] Start read register: 0 
+2022/04/01 18:56:55 engine.go:241: [info] InEnd [test, IN:41b96e6cec2946218f14eadd71672d5d] load successfully
+2022/04/01 18:57:25 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  EOF 
+2022/04/01 18:57:25 engine.go:276: [warning] Source IN:41b96e6cec2946218f14eadd71672d5d test down. try to restart it
+2022/04/01 18:57:25 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  EOF 
+2022/04/01 18:57:28 engine.go:700: [info] InEnd [IN:41b96e6cec2946218f14eadd71672d5d] has been deleted
+2022/04/01 18:57:30 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 18:57:30 engine.go:299: [error] Source start error: dial tcp 169.254.2.247:502: i/o timeout 
+2022/04/01 18:57:35 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 18:57:40 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 18:57:45 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 18:57:50 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 18:57:55 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 18:58:00 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 18:58:05 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 18:58:10 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 18:58:15 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 18:58:20 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 18:58:25 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 18:58:30 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 18:58:35 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 18:58:40 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 18:58:45 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 18:58:50 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 18:58:55 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 18:59:00 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 18:59:05 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 18:59:10 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 18:59:15 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 18:59:20 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 18:59:25 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 18:59:30 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 18:59:35 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 18:59:40 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 18:59:45 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 18:59:50 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 18:59:55 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:00:00 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:00:05 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:00:10 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:00:15 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:00:20 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:00:25 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:00:30 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:00:35 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:00:40 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:00:45 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:00:50 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:00:55 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:01:00 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:01:05 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:01:10 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:01:15 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:01:20 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:01:25 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:01:30 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:01:35 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:01:40 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:01:45 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:01:50 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:01:55 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:02:00 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:02:05 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:02:10 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:02:15 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:02:20 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:02:25 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:02:30 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:02:35 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:02:40 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:02:45 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:02:50 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:02:55 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:03:00 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:03:05 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:03:10 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:03:15 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:03:20 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:03:25 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:03:30 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:03:35 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:03:40 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:03:45 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:03:50 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:03:55 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:04:00 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:04:05 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:04:10 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:04:15 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:04:20 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:04:25 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:04:30 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:04:35 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:04:40 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:04:45 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:04:50 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:04:55 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:05:00 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:05:05 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:05:10 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:05:15 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:05:20 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:05:25 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:05:30 modbus_master.go:274: [error] NewModbusMasterSource ReadData error:  write tcp 169.254.168.74:61654->169.254.2.247:502: write: broken pipe 
+2022/04/01 19:05:35 runner.go:97: [warning] Received stop signal: interrupt 
+2022/04/01 19:05:35 engine.go:539: [info] Ready to stop rulex 
+2022/04/01 19:05:35 engine.go:564: [info] Stop plugin: Http Api Server 
+2022/04/01 19:05:35 engine.go:571: [info] Stop Rulex successfully 

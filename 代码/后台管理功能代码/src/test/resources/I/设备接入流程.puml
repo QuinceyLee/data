@@ -1,0 +1,31 @@
+@startuml
+'https://plantuml.com/activity-diagram-beta
+skinparam dpi 300
+start
+repeat
+repeat
+repeat
+:输入设备信息;
+repeat while (信息格式正确?) is (不是) not (是)
+repeat while (设备连接请求) is (不能连接) not(能连接)
+:生成设备UUID;
+:保存设备信息到数据库;
+backward: 解析失败删除数据库信息;
+repeat while (配置信息解析) is (解析失败) not(解析成功)
+split
+   :Modbus驱动;
+split again
+   :OPC UA驱动;
+split again
+    :PROFIBUS-DP驱动;
+split again
+    :PROFINET驱动;
+split again
+    :Ethernet/IP驱动;
+split again
+    :UART驱动;
+end split
+:设备接入;
+stop
+
+@enduml

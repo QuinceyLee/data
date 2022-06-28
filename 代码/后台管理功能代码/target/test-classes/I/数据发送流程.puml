@@ -1,0 +1,42 @@
+@startuml
+'https://plantuml.com/activity-diagram-beta
+skinparam dpi 300
+start
+:发送控制信息;
+:边缘网关订阅消息;
+if (网关UUID==自己UUID?) is (否) then
+  :丢弃消息;
+else (no)
+split
+   :模型下发;
+   :建立http连接;
+   :下载模型;
+   :更换模型;
+split again
+   :控制命令下发;
+   :根据UUID查找控制器;
+   :下发命令进行控制;
+split again
+    :边缘节点心跳包;
+    if (连续三次没有回应?) is (是) then
+      :生成一条报警数据;
+    else (否)
+    endif
+split again
+    :边缘节点规则修改;
+    if (规则是否存在?) is (是) then
+      :覆盖规则;
+    else (否)
+      :创建规则;
+    endif
+end split
+if (是否操作成功?) is (是) then
+else (否)
+repeat
+repeat while (重试5次?) is(否)
+  :发送失败消息;
+endif
+endif
+stop
+
+@enduml

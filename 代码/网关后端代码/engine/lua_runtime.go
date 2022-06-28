@@ -1,0 +1,63 @@
+package engine
+
+import (
+	"rulex/rulexlib"
+	"rulex/typex"
+)
+
+/*
+*
+* 加载标准库
+*
+ */
+func LoadBuildInLuaLib(e typex.RuleX, r *typex.Rule) {
+	//--------------------------------------------------------------
+	// Load Stdlib
+	//--------------------------------------------------------------
+	// 消息转发
+	r.AddLib(e, "DataToHttp", rulexlib.DataToHttp(e))
+	r.AddLib(e, "DataToMqtt", rulexlib.DataToMqtt(e))
+	// JQ
+	r.AddLib(e, "JqSelect", rulexlib.JqSelect(e))
+	r.AddLib(e, "JQ", rulexlib.JqSelect(e))
+	// 日志
+	r.AddLib(e, "log", rulexlib.Log(e))
+
+	// 直达数据
+	r.AddLib(e, "WriteInStream", rulexlib.WriteInStream(e))
+	r.AddLib(e, "WriteOutStream", rulexlib.WriteOutStream(e))
+	// 二进制操作
+	r.AddLib(e, "MB", rulexlib.MatchBinary(e))
+	r.AddLib(e, "B2BS", rulexlib.ByteToBitString(e))
+	r.AddLib(e, "Bit", rulexlib.GetABitOnByte(e))
+	r.AddLib(e, "B2I64", rulexlib.ByteToInt64(e))
+	r.AddLib(e, "BS2B", rulexlib.BitStringToBytes(e))
+	// URL处理
+	r.AddLib(e, "UrlBuild", rulexlib.UrlBuild(e))
+	r.AddLib(e, "UrlBuildQS", rulexlib.UrlBuildQS(e))
+	r.AddLib(e, "UrlParse", rulexlib.UrlParse(e))
+	r.AddLib(e, "UrlResolve", rulexlib.UrlResolve(e))
+	// 数据持久化
+	r.AddLib(e, "DataToTdEngine", rulexlib.DataToTdEngine(e))
+	r.AddLib(e, "DataToMongo", rulexlib.DataToMongo(e))
+	// --------------------------------------
+	// From 0.0.8: 使用新版本的库加载方式
+	// --------------------------------------
+	// 时间库
+	r.AddLib(e, "Time", rulexlib.Time(e))
+	r.AddLib(e, "TsUnix", rulexlib.TsUnix(e))
+	r.AddLib(e, "TsUnixNano", rulexlib.TsUnixNano(e))
+	// 缓存器库
+	r.AddLib(e, "VSet", rulexlib.StoreSet(e))
+	r.AddLib(e, "VGet", rulexlib.StoreGet(e))
+	r.AddLib(e, "VDel", rulexlib.StoreDelete(e))
+	// JSON
+	r.AddLib(e, "T2J", rulexlib.JSONE(e)) // Lua Table -> JSON
+	r.AddLib(e, "J2T", rulexlib.JSOND(e)) // JSON -> Lua Table
+	// Get Rule ID
+	r.AddLib(e, "RUUID", rulexlib.SelfRuleUUID(e, r.UUID))
+	// Codec
+	r.AddLib(e, "RPCENC", rulexlib.RPCEncode(e))
+	r.AddLib(e, "RPCDEC", rulexlib.RPCDecode(e))
+
+}
